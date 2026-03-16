@@ -20,6 +20,12 @@ manim -pqh main.py SphereGeodesics
 
 # フォーマット
 black main.py
+
+# 型チェック
+pyright main.py
+
+# Lint
+pylint main.py
 ```
 
 出力動画は `media/videos/main/<解像度>/SphereGeodesics.mp4` に生成される。

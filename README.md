@@ -18,6 +18,14 @@ uv sync
 source .venv/bin/activate
 ```
 
+## 開発ツール
+
+```bash
+black main.py      # フォーマット
+pyright main.py    # 型チェック
+pylint main.py     # Lint
+```
+
 ## 実行
 
 ```bash

@@ -1,0 +1,7 @@
+{
+  "pylint.interpreter": [".env/bin/python"],
+  "editor.formatOnSave": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  }
+}
